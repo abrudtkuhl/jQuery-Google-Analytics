@@ -1,11 +1,39 @@
-jQuery Google Analytics Plugin
-==============================
-A jQuery plugin to handle advanced Google analytics tracking (like events) declaratively.
+jQuery Analytics
+=========
+
+jQuery.analytics is an Google Analytics jQuery plugin that is easy to implement and allows for declarative tagging to track events and pageviews.
+
+  - Track Page Views
+  - Track Events with easy declartive syntax
+
+Usage
+=====
+1. Include jQuery version 1.4.3 or later
+2. Include jquery.analytics.js script
+3. Initialize the plugin
+    
+    ```
+    $(document).ready() {
+        $(document).analytics();
+    };
+    ```
+
+4. Add declarative data attributes to things you want to track events on
+    ```<button data-track='{ "category" : "search", "action" : "button", "label" : "Search" }'>Search</button>```
+
+Testing
+=======
+I recommend the excellent [Google Analytics Debugger][https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en] Chrome extension to test what gets tracked via Google Analytics.
 
 Dependencies
-------------
->= jQuery version 1.4.3 (see [data() support][http://api.jquery.com/data/#data-html5])
+============
+jQuery version 1.4.3 (see [data() support][http://api.jquery.com/data/#data-html5])
 
 Notes
------
+=====
 _Currently only works with the ga.js (standard) version of Google Analytics. Future support is planned for analytics.js when it it stable._
+
+Author
+======
+[Andy Brudtkuhl][http://youmetandy.com]  
+[@abrudtkuhl][http://twitter.com/abrudtkuhl]

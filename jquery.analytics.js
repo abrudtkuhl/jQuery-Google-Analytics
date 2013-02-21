@@ -1,4 +1,11 @@
-/* jquery analytics plugin */
+/**
+ * jquery.analytics.js - https://github.com/yckart/jquery.ga.js
+ * Google analytics implementation for jQuery.
+ *
+ * Copyright (c) 2013 Andy Brudtkuhl (http://youmetandy.com)
+ * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php).
+ * 2013/02/21
+**/
 
 (function($) {
   $.fn.analytics = function() {
@@ -10,4 +17,3 @@
     });
   };
 })(jQuery);
-
