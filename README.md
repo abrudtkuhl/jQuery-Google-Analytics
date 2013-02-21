@@ -23,11 +23,11 @@ Usage
 
 Testing
 =======
-I recommend the excellent [Google Analytics Debugger][https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en] Chrome extension to test what gets tracked via Google Analytics.
+I recommend the excellent [Google Analytics Debugger](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en) Chrome extension to test what gets tracked via Google Analytics.
 
 Dependencies
 ============
-jQuery version 1.4.3 (see [data() support][http://api.jquery.com/data/#data-html5])
+jQuery version 1.4.3 - see [data() support](http://api.jquery.com/data/#data-html5)
 
 Notes
 =====
@@ -35,5 +35,5 @@ _Currently only works with the ga.js (standard) version of Google Analytics. Fut
 
 Author
 ======
-[Andy Brudtkuhl][http://youmetandy.com]  
-[@abrudtkuhl][http://twitter.com/abrudtkuhl]
+[Andy Brudtkuhl](http://youmetandy.com)  
+[@abrudtkuhl]([)http://twitter.com/abrudtkuhl)
