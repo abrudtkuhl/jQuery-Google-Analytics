@@ -1,5 +1,5 @@
 /**
- * jquery.analytics.js - https://github.com/yckart/jquery.ga.js
+ * jquery.analytics.js - https://github.com/abrudtkuhl/jQuery-Analytics
  * Google analytics implementation for jQuery.
  *
  * Copyright (c) 2013 Andy Brudtkuhl (http://youmetandy.com)
