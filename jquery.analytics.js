@@ -9,13 +9,18 @@
 
 (function($) {
   $.fn.analytics = function() {
+    // check if _gaq google analytics array is defined first
     if (typeof(_gaq) == 'undefined') {
       console.error("In order to use this plugin, you must have Google Analytics installed");
       return this;
     }
+    // return this for proper chaining
     return this.ready(function() {
+      // track click event
       $('*[data-track]').click(function() {
+        // grab data
         var data = $(this).data('track');
+        // push to google analytics
         _gaq.push(['_trackEvent', data.category, data.action, data.label, data.value]);
       });
     });
