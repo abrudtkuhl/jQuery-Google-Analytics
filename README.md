@@ -36,4 +36,4 @@ _Currently only works with the ga.js (standard) version of Google Analytics. Fut
 Author
 ======
 [Andy Brudtkuhl](http://youmetandy.com)  
-[@abrudtkuhl]([)http://twitter.com/abrudtkuhl)
+[@abrudtkuhl](http://twitter.com/abrudtkuhl)
