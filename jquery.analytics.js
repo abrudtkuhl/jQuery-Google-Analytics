@@ -17,7 +17,7 @@
     // return this for proper chaining
     return this.ready(function() {
       // event delegate to track clicks to events
-      $('*[data-track').on('click', this, function() {
+      $('*[data-track]').on('click', this, function() {
         // grab data
         var data = $(this).data('track');
         // push to google analytics
