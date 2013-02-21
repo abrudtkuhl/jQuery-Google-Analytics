@@ -9,6 +9,10 @@
 
 (function($) {
   $.fn.analytics = function() {
+    if (typeof(_gaq) == 'undefined') {
+      console.error("In order to use this plugin, you must have Google Analytics installed");
+      return this;
+    }
     return this.ready(function() {
       $('*[data-track]').click(function() {
         var data = $(this).data('track');
