@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jQuery Analytics
 
 Easy declarative event tracking jQuery plugin for Google Analytics
@@ -7,6 +8,15 @@ Download the [production version][min] or the [development version][max].
 
 [min]: https://raw.github.com/abrudtkuhl/jQuery-Analytics/master/dist/jquery.analytics.min.js
 [max]: https://raw.github.com/abrudtkuhl/jQuery-Analytics/master/dist/jquery.analytics.js
+=======
+jQuery Analytics
+=========
+
+jQuery.analytics is an Google Analytics jQuery plugin that is easy to implement and allows for declarative tagging to track events and pageviews.
+
+  - Track Page Views
+  - Track Click Events with easy declartive syntax
+>>>>>>> 0f17dfdb69bc3613c6d691a9f6db280a32298810
 
 Usage
 =====
@@ -27,12 +37,18 @@ Testing
 =======
 I recommend the excellent [Google Analytics Debugger](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en) Chrome extension to test what gets tracked via Google Analytics.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f17dfdb69bc3613c6d691a9f6db280a32298810
 Dependencies
 ============
 jQuery version 1.4.3 - see [data() support](http://api.jquery.com/data/#data-html5)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f17dfdb69bc3613c6d691a9f6db280a32298810
 Google Analytics Support
 ========================
 _As of 2/9/14 this jQuery plugin supports both versions of Google Analytics_
@@ -46,8 +62,12 @@ This is the older version of Google Analytics tracking that uses the asynchronou
 Author
 ======
 [Andy Brudtkuhl](http://youmetandy.com)  
+<<<<<<< HEAD
 [@abrudtkuhl](http://twitter.com/abrudtkuhl)
 
 
 ## Release History
 _(Nothing yet)_
+=======
+[@abrudtkuhl](http://twitter.com/abrudtkuhl)
+>>>>>>> 0f17dfdb69bc3613c6d691a9f6db280a32298810
