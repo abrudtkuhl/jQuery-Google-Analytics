@@ -10,7 +10,7 @@
 (function($) {
   $.fn.analytics = function() {
     // google analytics is installed and running
-    if (typeof(_gaq) == 'undefined' && typeof(ga) == 'undefined') {
+    if (typeof(_gaq) == 'undefined' && ) {
       console.error("In order to use this plugin, you must have Google Analytics installed");
       return this;
     }
@@ -21,7 +21,10 @@
         // grab data
         var data = $(this).data('track');
         // push to google analytics
-        _gaq.push(['_trackEvent', data.category, data.action, data.label, data.value]);
+        if(typeof(_gaq) != 'undefined')
+          _gaq.push(['_trackEvent', data.category, data.action, data.label, data.value]);
+        else if (typeof(ga) != 'undefined')
+          ga('send', 'event', data.category, data.action, data.label, data.value);
       });
     });
   };
