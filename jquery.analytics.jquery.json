@@ -1,0 +1,27 @@
+{
+  "name": "jquery.analytics",
+  "title": "jQuery Analytics",
+  "description": "Easy declarative event tracking jQuery plugin for Google Analytics",
+  "version": "0.1.0",
+  "homepage": "https://github.com/abrudtkuhl/jQuery-Analytics",
+  "author": {
+    "name": "Andy Brudtkuhl",
+    "email": "abrudtkuhl@gmail.com",
+    "url": "http://youmetandy.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abrudtkuhl/jQuery-Analytics"
+  },
+  "bugs": "https://github.com/abrudtkuhl/jQuery-Analytics/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/abrudtkuhl/jQuery-Analytics/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1.4.3"
+  },
+  "keywords": []
+}
