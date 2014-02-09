@@ -4,7 +4,7 @@ jQuery Analytics
 jQuery.analytics is an Google Analytics jQuery plugin that is easy to implement and allows for declarative tagging to track events and pageviews.
 
   - Track Page Views
-  - Track Events with easy declartive syntax
+  - Track Click Events with easy declartive syntax
 
 Usage
 =====
