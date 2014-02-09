@@ -1,21 +1,16 @@
 # jQuery Analytics
 
-Easy declarative event tracking jQuery plugin for Google Analytics
+jQuery.analytics is an Google Analytics jQuery plugin that is easy to implement and allows for declarative tagging to track events and pageviews.
+
+  - Track Page Views
+  - Track Click Events with easy declartive syntax
 
 ## Getting Started
 Download the [production version][min] or the [development version][max].
 
 [min]: https://raw.github.com/abrudtkuhl/jQuery-Analytics/master/dist/jquery.analytics.min.js
 [max]: https://raw.github.com/abrudtkuhl/jQuery-Analytics/master/dist/jquery.analytics.js
-=======
-jQuery Analytics
-=========
 
-jQuery.analytics is an Google Analytics jQuery plugin that is easy to implement and allows for declarative tagging to track events and pageviews.
-
-  - Track Page Views
-  - Track Click Events with easy declartive syntax
->>>>>>> 0f17dfdb69bc3613c6d691a9f6db280a32298810
 
 Usage
 =====
