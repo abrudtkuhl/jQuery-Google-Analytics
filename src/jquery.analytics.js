@@ -9,7 +9,7 @@
 (function($) {
   $.fn.analytics = function() {
     // google analytics is installed and running
-    if (typeof(_gaq) == 'undefined' && ) {
+    if (typeof(_gaq) == 'undefined' && typeof(_gaq) == 'undefined') {
       console.error("In order to use this plugin, you must have Google Analytics installed");
       return this;
     }
