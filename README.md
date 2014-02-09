@@ -29,6 +29,16 @@ Dependencies
 ============
 jQuery version 1.4.3 - see [data() support](http://api.jquery.com/data/#data-html5)
 
+Google Analytics Support
+========================
+__As of 2/9/14 this jQuery plugin supports both versions of Google Analytics__
+
+**[analytics.js](https://developers.google.com/analytics/devguides/collection/analyticsjs/)**  
+Supports Google's latest version of Universal Analytics script called analytics.js which uses the "ga" object.
+
+**[ga.js](https://developers.google.com/analytics/devguides/collection/gajs/)**  
+This is the older version of Google Analytics tracking that uses the asynchronous syntax.
+
 Author
 ======
 [Andy Brudtkuhl](http://youmetandy.com)  
