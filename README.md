@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # jQuery Analytics
 
 Easy declarative event tracking jQuery plugin for Google Analytics
@@ -37,18 +36,13 @@ Testing
 =======
 I recommend the excellent [Google Analytics Debugger](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en) Chrome extension to test what gets tracked via Google Analytics.
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 0f17dfdb69bc3613c6d691a9f6db280a32298810
 Dependencies
 ============
 jQuery version 1.4.3 - see [data() support](http://api.jquery.com/data/#data-html5)
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 0f17dfdb69bc3613c6d691a9f6db280a32298810
+
 Google Analytics Support
 ========================
 _As of 2/9/14 this jQuery plugin supports both versions of Google Analytics_
@@ -62,12 +56,8 @@ This is the older version of Google Analytics tracking that uses the asynchronou
 Author
 ======
 [Andy Brudtkuhl](http://youmetandy.com)  
-<<<<<<< HEAD
 [@abrudtkuhl](http://twitter.com/abrudtkuhl)
 
 
 ## Release History
 _(Nothing yet)_
-=======
-[@abrudtkuhl](http://twitter.com/abrudtkuhl)
->>>>>>> 0f17dfdb69bc3613c6d691a9f6db280a32298810
