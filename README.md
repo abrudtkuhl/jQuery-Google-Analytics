@@ -31,7 +31,7 @@ jQuery version 1.4.3 - see [data() support](http://api.jquery.com/data/#data-htm
 
 Google Analytics Support
 ========================
-__As of 2/9/14 this jQuery plugin supports both versions of Google Analytics__
+_As of 2/9/14 this jQuery plugin supports both versions of Google Analytics_
 
 **[analytics.js](https://developers.google.com/analytics/devguides/collection/analyticsjs/)**  
 Supports Google's latest version of Universal Analytics script called analytics.js which uses the "ga" object.
