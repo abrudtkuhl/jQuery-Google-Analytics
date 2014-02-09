@@ -1,11 +1,6 @@
-/*
- * jquery.analytics
- * https://github.com/abrudtkuhl/jQuery-Analytics
- *
- * Copyright (c) 2014 Andy Brudtkuhl
- * Licensed under the MIT license.
- */
-
+/*! jQuery Analytics - v0.1.0 - 2014-02-09
+* https://github.com/abrudtkuhl/jQuery-Analytics
+* Copyright (c) 2014 Andy Brudtkuhl; Licensed MIT */
 /*global _gaq */
 /*global ga */
 
