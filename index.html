@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>JQuery Google Analytics Plugin by abrudtkuhl</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">JQuery Google Analytics Plugin</h1>
+        <p class="header">A jQuery analytics plugin that supports declarative event tracking in Google Analytics</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/abrudtkuhl/jQuery-Analytics/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/abrudtkuhl/jQuery-Analytics/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/abrudtkuhl/jQuery-Analytics">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/abrudtkuhl">abrudtkuhl</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="jquery-analytics" class="anchor" href="#jquery-analytics"><span class="octicon octicon-link"></span></a>jQuery Analytics</h1>
+
+<p>jQuery.analytics is an Google Analytics jQuery plugin that is easy to implement and allows for declarative tagging to track events and pageviews.</p>
+
+<ul>
+<li>Track Page Views</li>
+<li>Track Click Events with easy declartive syntax</li>
+</ul><h2>
+<a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<p>Download the <a href="https://raw.github.com/abrudtkuhl/jQuery-Analytics/master/dist/jquery.analytics.min.js">production version</a> or the <a href="https://raw.github.com/abrudtkuhl/jQuery-Analytics/master/dist/jquery.analytics.js">development version</a>.</p>
+
+<h1>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<ol>
+<li>Include jQuery version 1.4.3 or later</li>
+<li>Include jquery.analytics.js script</li>
+<li>
+<p>Initialize the plugin</p>
+
+<pre><code>$(document).ready() {
+    $(document).analytics();
+};
+</code></pre>
+</li>
+<li><p>Add declarative data attributes to things you want to track events on
+<code>&lt;button data-track='{ "category" : "search", "action" : "button", "label" : "Search" }'&gt;Search&lt;/button&gt;</code></p></li>
+</ol><h1>
+<a name="testing" class="anchor" href="#testing"><span class="octicon octicon-link"></span></a>Testing</h1>
+
+<p>I recommend the excellent <a href="https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna?hl=en">Google Analytics Debugger</a> Chrome extension to test what gets tracked via Google Analytics.</p>
+
+<h1>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h1>
+
+<p>jQuery version 1.4.3 - see <a href="http://api.jquery.com/data/#data-html5">data() support</a></p>
+
+<h1>
+<a name="google-analytics-support" class="anchor" href="#google-analytics-support"><span class="octicon octicon-link"></span></a>Google Analytics Support</h1>
+
+<p><em>As of 2/9/14 this jQuery plugin supports both versions of Google Analytics</em></p>
+
+<p><strong><a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/">analytics.js</a></strong><br>
+Supports Google's latest version of Universal Analytics script called analytics.js which uses the "ga" object.</p>
+
+<p><strong><a href="https://developers.google.com/analytics/devguides/collection/gajs/">ga.js</a></strong><br>
+This is the older version of Google Analytics tracking that uses the asynchronous syntax.</p>
+
+<h1>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h1>
+
+<p><a href="http://youmetandy.com">Andy Brudtkuhl</a><br><a href="http://twitter.com/abrudtkuhl">@abrudtkuhl</a></p>
+
+<h2>
+<a name="release-history" class="anchor" href="#release-history"><span class="octicon octicon-link"></span></a>Release History</h2>
+
+<p><em>(Nothing yet)</em></p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
