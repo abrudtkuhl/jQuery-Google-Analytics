@@ -1,4 +1,4 @@
-/*! jQuery Analytics - v0.1.0 - 2014-02-09
+/*! jQuery Analytics - v0.1.0 - 2014-02-11
 * https://github.com/abrudtkuhl/jQuery-Analytics
 * Copyright (c) 2014 Andy Brudtkuhl; Licensed MIT */
 /*global _gaq */
@@ -15,6 +15,13 @@
     return this.ready(function() {
       // event delegate to track clicks to events
       $('*[data-track]').on('click', this, function() {
+        if (this.nodeName === 'A') {
+          if (this.attr('target' !== 'blank')) {
+            setTimeout(function() { location.href = this.href; }, 200);
+            return false;
+          }
+        }
+
         // grab data
         var data = $(this).data('track');
         // push to google analytics
